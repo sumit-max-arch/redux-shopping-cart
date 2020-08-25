@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="grid-container">
       <header>
-      <a href ="/">Green cart </a>
+      <a href ="/">Green fashion cart </a>
       </header>
       <main>
         Product List
