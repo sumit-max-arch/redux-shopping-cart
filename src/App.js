@@ -3,9 +3,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="grid-container">
+    <div className="grid-container">git
       <header>
-      <a href ="/">Green fashion cart </a>
+      <a href ="/">Green fashion </a>
       </header>
       <main>
         Product List
