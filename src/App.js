@@ -22,32 +22,33 @@ class App extends React.Component {
 
   }
   render() {
-  return (
+    
+  
+    return (
       <div className="grid-container">
         <header>
-        <a href="/">Green fashion </a>
+          <a href="/">Green fashion </a>
         </header>
         <main>
-        <div className="content">
-        <div className="main">
-          <Filter
-          count = {this.state.products.length}>
-          size =  {this.state.size}
-          sort =  {this.state.sort}
-          filterProducts = {this.filterProducts}
-          sortProducts = {this.sortProducts}
-          </Filter>
-          <Products products ={this.state.products}></Products>
-          </div>
-          <div className="sidebar">
+          <div className="content">
+            <div className="main">
+              <Filter count={this.state.products.length}>
+                size={this.state.size}
+                sort={this.state.sort}
+                filterProducts={this.filterProducts}
+                sortProducts={this.sortProducts}
+              </Filter>
+              <Products products ={this.state.products}></Products>
+            </div>
+            <div className="sidebar">
               cart item
+            </div>
           </div>
-          </div>
-          </main>
-         <footer>
+      </main>
+        <footer>
           All right is reserved
-        </footer>
-        </div>
+      </footer>
+      </div>
    
     );
   }
