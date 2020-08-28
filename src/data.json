@@ -1,0 +1,52 @@
+{
+    "products":[
+ 
+        {
+            "_id":"dress1",
+            "title":"Dress standard",
+            "image":"/images/dress1.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":10,
+            "availableSizes":["XL","XXL","X","XL"] }
+        ,
+        {
+            "_id":"dress2",
+            "title":"Dress Mild",
+            "image":"/images/dress2.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":10,
+            "availableSizes":["XL","XXL","X","XL"] }
+        ,
+        {
+            "_id":"dress3",
+            "title":"Dress Card",
+            "image":"/images/dress3.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":10,
+            "availableSizes":["XL","XXL","X","XL"] 
+        },
+        {
+            "_id":"dress4",
+            "title":"Dress Light",
+            "image":"/images/dress4.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":10,
+            "availableSizes":["XL","XXL","X","XL"] 
+        },
+        {
+            "_id":"dress5",
+            "title":"Dress Type",
+            "image":"/images/dress5.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":10,
+            "availableSizes":["XL","XXL","X","XL"] 
+        },
+        {
+            "_id":"dress6",
+            "title":"Dress Lime",
+            "image":"/images/dress6.jpg",
+            "description":"A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice. It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length, and can be formal or casual.",
+            "price":40,
+            "availableSizes":["XL","XXL","X","XL"] 
+        }
+    ]}

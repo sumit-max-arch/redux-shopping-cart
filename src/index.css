@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html{
   font-size:62.5%;
   box-sizing: border-box;
@@ -7,9 +8,9 @@ body , #root{
   height: 100vh;
   margin:0;
 }
-body, input, select, textarea{
+body, input, select,button, textarea{
+  font-family:Montserrat,Arial, Helvetica, sans-serif;;
   font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .grid-container{
   display: grid;
@@ -23,11 +24,12 @@ a:hover{
 }
 header{
   grid-area: header;
-  background-color: #2ee91d;
+  background-color: #161615fa;
   color: #ffffff;
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.6rem;
+
 }
 header a{
   text-decoration:none;
@@ -38,9 +40,78 @@ main{
 }
 footer{
   grid-area:footer;
-  background-color: #2ee91d;
+  background-color: #161615fa;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  }
+.main{
+  flex:3 60rem;
+}  
+.sidebar{
+  flex: 1 20rem;
+}
+/*products styling */
+.products {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+.products li {
+  padding: 1rem;
+  height: 47rem;
+  flex: 0 1 29rem;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.product img {
+  max-width: 37rem;
+  max-height: 37rem;
+}
+.product-price div,
+.product-price button{
+  text-align: center;
+  flex:1rem;
+}
+.product-price div{
+   font-size: 2rem;
+}
+.button{
+    padding:1rem;
+    border:0.1rem #c0c0c0 solid;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    }
+    .button:hover{
+      border:0.1rem #808080 solid;
+    }
+ .button.primary{
+  background-color: #f0c040;
+  margin-top: 0px;
+  padding: 7px;
+
+ }   
+ /*Filter */
+ .filter {
+  border-bottom: .1rem #c0c0c0 solid;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content:space-between;
+}
+.filter div {
+  flex: 1rem;
 }
